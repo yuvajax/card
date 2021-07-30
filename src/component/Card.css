@@ -1,0 +1,16 @@
+.card{
+    margin: 25px 6px 8px 25px;
+    padding: 20px;
+    width:  290px;
+    box-shadow: 0 0 28px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    text-align: left;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-name{
+    font-size: 23px;
+    font-weight: bold;
+}
